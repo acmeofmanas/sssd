@@ -1,0 +1,2 @@
+# sssd
+yum install sssd
