@@ -1,0 +1,77 @@
+[kogentix_ops@cdhcm01 ~]$ ldapsearch -h DC1.analytics.smvgroup.com -b OU=Starcom,DC=analytics,DC=smvgroup,DC=com "sAMAccountName=mpradhan"
+SASL/GSSAPI authentication started
+SASL username: mpradhan@ANALYTICS.SMVGROUP.COM
+SASL SSF: 56
+SASL data security layer installed.
+# extended LDIF
+#
+# LDAPv3
+# base <OU=Starcom,DC=analytics,DC=smvgroup,DC=com> with scope subtree
+# filter: sAMAccountName=mpradhan
+# requesting: ALL
+#
+
+# Manas Pradhan, Firminiq, Consultants, AAI, Starcom, analytics.smvgroup.com
+dn: CN=Manas Pradhan,OU=Firminiq,OU=Consultants,OU=AAI,OU=Starcom,DC=analytics
+ ,DC=smvgroup,DC=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Manas Pradhan
+sn: Pradhan
+givenName: Manas
+distinguishedName: CN=Manas Pradhan,OU=Firminiq,OU=Consultants,OU=AAI,OU=Starc
+ om,DC=analytics,DC=smvgroup,DC=com
+instanceType: 4
+whenCreated: 20190325213010.0Z
+whenChanged: 20191110090540.0Z
+displayName: Manas Pradhan
+uSNCreated: 10930066
+memberOf: CN=KtsAdmins,OU=UserGroup,OU=CDHHadoop,OU=Starcom,DC=analytics,DC=sm
+ vgroup,DC=com
+memberOf: CN=HadoopAdmins,OU=UserGroup,OU=CDHHadoop,OU=Starcom,DC=analytics,DC
+ =smvgroup,DC=com
+memberOf: CN=HadoopUsers,OU=UserGroup,OU=CDHHadoop,OU=Starcom,DC=analytics,DC=
+ smvgroup,DC=com
+memberOf: CN=PROC1RDPUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=
+ com
+memberOf: CN=VPNUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=com
+memberOf: CN=Domain Admins,CN=Users,DC=analytics,DC=smvgroup,DC=com
+uSNChanged: 17619674
+name: Manas Pradhan
+objectGUID:: mfYpK25C1kqb3qTbnyv2WQ==
+userAccountControl: 66048
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 132174726257441117
+lastLogoff: 0
+lastLogon: 132178696847205363
+pwdLastSet: 132005116837825840
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA3aOoBBnhD48fyU8jAQYAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 101
+sAMAccountName: mpradhan
+sAMAccountType: 805306368
+userPrincipalName: mpradhan@analytics.smvgroup.com
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=analytics,DC=smvgroup,
+ DC=com
+dSCorePropagationData: 20191001162310.0Z
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 132178503405151530
+msTSExpireDate: 20191130162843.0Z
+msTSLicenseVersion: 655360
+msTSManagingLS: 00377-70126-41697-AT788
+msTSLicenseVersion2: 7
+msTSLicenseVersion3: C50-10.00-S
+
+# search result
+search: 5
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+[kogentix_ops@cdhcm01 ~]$
