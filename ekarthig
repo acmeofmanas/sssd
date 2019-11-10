@@ -1,0 +1,82 @@
+[kogentix_ops@cdhcm01 ~]$ ldapsearch -h DC1.analytics.smvgroup.com -b OU=Starcom,DC=analytics,DC=smvgroup,DC=com "sAMAccountName=ekarthig"
+SASL/GSSAPI authentication started
+SASL username: mpradhan@ANALYTICS.SMVGROUP.COM
+SASL SSF: 56
+SASL data security layer installed.
+# extended LDIF
+#
+# LDAPv3
+# base <OU=Starcom,DC=analytics,DC=smvgroup,DC=com> with scope subtree
+# filter: sAMAccountName=ekarthig
+# requesting: ALL
+#
+
+# Raj Karthigeyan, AT, AAI, Starcom, analytics.smvgroup.com
+dn: CN=Raj Karthigeyan,OU=AT,OU=AAI,OU=Starcom,DC=analytics,DC=smvgroup,DC=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Raj Karthigeyan
+sn: Karthigeyan
+givenName: Raj
+distinguishedName: CN=Raj Karthigeyan,OU=AT,OU=AAI,OU=Starcom,DC=analytics,DC=
+ smvgroup,DC=com
+instanceType: 4
+whenCreated: 20170413190827.0Z
+whenChanged: 20191110013000.0Z
+displayName: Raj Karthigeyan
+uSNCreated: 56237
+memberOf: CN=InformaticaAdmins,OU=UserGroup,OU=Informatica,OU=Starcom,DC=analy
+ tics,DC=smvgroup,DC=com
+memberOf: CN=InformaticaUsers,OU=UserGroup,OU=Informatica,OU=Starcom,DC=analyt
+ ics,DC=smvgroup,DC=com
+memberOf: CN=HadoopAdmins,OU=UserGroup,OU=CDHHadoop,OU=Starcom,DC=analytics,DC
+ =smvgroup,DC=com
+memberOf: CN=HadoopUsers,OU=UserGroup,OU=CDHHadoop,OU=Starcom,DC=analytics,DC=
+ smvgroup,DC=com
+memberOf: CN=SAS1RDPUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=c
+ om
+memberOf: CN=AdminUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=com
+memberOf: CN=VPNUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=com
+memberOf: CN=FTPUsers,OU=Services,OU=Starcom,DC=analytics,DC=smvgroup,DC=com
+memberOf: CN=RAS and IAS Servers,CN=Users,DC=analytics,DC=smvgroup,DC=com
+memberOf: CN=Domain Admins,CN=Users,DC=analytics,DC=smvgroup,DC=com
+uSNChanged: 17611191
+name: Raj Karthigeyan
+objectGUID:: CB62tLs920222jVhtkIkiw==
+userAccountControl: 512
+badPwdCount: 6
+codePage: 0
+countryCode: 0
+badPasswordTime: 132178694791660658
+lastLogoff: 0
+lastLogon: 132177080545802681
+pwdLastSet: 132113065875701253
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAA3aOoBBnhD48fyU8jVwQAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 2913
+sAMAccountName: ekarthig
+sAMAccountType: 805306368
+userPrincipalName: ekarthig@analytics.smvgroup.com
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=analytics,DC=smvgroup,
+ DC=com
+dSCorePropagationData: 20170421154710.0Z
+dSCorePropagationData: 20170413193725.0Z
+dSCorePropagationData: 16010101000000.0Z
+lastLogonTimestamp: 132178230004299743
+msTSExpireDate: 20191112195127.0Z
+msTSLicenseVersion: 655360
+msTSManagingLS: 00377-70126-41697-AT788
+msTSLicenseVersion2: 7
+msTSLicenseVersion3: C50-10.00-S
+
+# search result
+search: 5
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+[kogentix_ops@cdhcm01 ~]$
